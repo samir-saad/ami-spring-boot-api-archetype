@@ -1,0 +1,9 @@
+# ${artifactId}
+
+## Project Status
+
+|Branch   |Build Status   |Quality Status   |Coverage   |Security Rating   |
+|---|---|---|---|---|
+|master   |[![Build Status](http://ssaad.ddns.net:58080/buildStatus/icon?job=${artifactId}%2Fmaster)](http://ssaad.ddns.net:58080/job/${artifactId}/job/master)   |[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=${groupId}%3A${artifactId}&branch=master&metric=alert_status)](https://sonarcloud.io/dashboard?id=${groupId}%3A${artifactId}&branch=master)   |[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=${groupId}%3A${artifactId}&branch=master&metric=coverage)](https://sonarcloud.io/dashboard?id=${groupId}%3A${artifactId}&branch=master)   |[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=${groupId}%3A${artifactId}&branch=master&metric=security_rating)](https://sonarcloud.io/dashboard?id=${groupId}%3A${artifactId}&branch=master)   |
+|develop   |[![Build Status](http://ssaad.ddns.net:58080/buildStatus/icon?job=${artifactId}%2Fdevelop)](http://ssaad.ddns.net:58080/job/${artifactId}/job/develop)   |[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=${groupId}%3A${artifactId}&branch=develop&metric=alert_status)](https://sonarcloud.io/dashboard?id=${groupId}%3A${artifactId}&branch=develop)   |[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=${groupId}%3A${artifactId}&branch=develop&metric=coverage)](https://sonarcloud.io/dashboard?id=${groupId}%3A${artifactId}&branch=develop)   |[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=${groupId}%3A${artifactId}&branch=develop&metric=security_rating)](https://sonarcloud.io/dashboard?id=${groupId}%3A${artifactId}&branch=develop)   |
+|   |   |   |   |   |

@@ -5,14 +5,23 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         name="spring-boot-api-archetype">
     <fileSets>
-        <fileSet filtered="true" packaged="true">
+        <fileSet encoding="UTF-8" filtered="true" packaged="true">
             <directory>src/main/java</directory>
         </fileSet>
-        <fileSet filtered="true" packaged="false">
+        <fileSet encoding="UTF-8" filtered="true" packaged="false">
             <directory>src/main/resources</directory>
         </fileSet>
-        <fileSet filtered="true" packaged="true">
+        <fileSet encoding="UTF-8" filtered="true" packaged="true">
             <directory>src/test/java</directory>
+        </fileSet>
+        <fileSet encoding="UTF-8" filtered="true" packaged="false">
+            <directory></directory>
+            <includes>
+                <include>.gitignore</include>
+                <include>Jenkinsfile</include>
+                <include>pipeline-config.json</include>
+                <include>README.md</include>
+            </includes>
         </fileSet>
     </fileSets>
 </archetype-descriptor>

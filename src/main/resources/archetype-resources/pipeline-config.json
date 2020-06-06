@@ -4,14 +4,6 @@
   },
   "stages": [
     {
-      "taskType": "DEPENDENCY_CHECK",
-      "enable": false
-    },
-    {
-      "taskType": "BINARIES_ARCHIVE",
-      "enable": false
-    },
-    {
       "taskType": "CONTAINER_BUILD",
       "platform": {
         "clusterId": "ocp-dev",
